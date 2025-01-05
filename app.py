@@ -7,7 +7,7 @@ import shelve
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-st.title("ChatGPT-like Chatbot Demo")
+st.title("Tutor GPT Demo")
 
 USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
